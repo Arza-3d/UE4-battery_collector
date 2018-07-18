@@ -14,6 +14,9 @@ APickup::APickup()
 	PickupMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("PickupMesh"));
 	RootComponent = PickupMesh;
 
+	//set pickup state is active by default
+	bool bIsActive = true;
+
 }
 
 // Called when the game starts or when spawned
@@ -29,4 +32,15 @@ void APickup::Tick(float DeltaTime)
 	Super::Tick(DeltaTime);
 
 }
+
+bool APickup::IsActive()
+{
+	return bIsActive;
+}
+
+void APickup::SetActive(bool NewPickupState)
+{
+	bIsActive = NewPickupState;
+}
+
 

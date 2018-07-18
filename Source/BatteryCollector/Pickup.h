@@ -25,6 +25,18 @@ public:
 
 	// in case we wanna do something with the mesh when the character pick it up, we need function that return the mesh
 	FORCEINLINE class UStaticMeshComponent* GetMesh() const { return PickupMesh; }
+	
+	// return pickup state
+	UFUNCTION(BlueprintPure, Category = "Pickup")
+	bool IsActive();
+
+	// set pickup state, true for active, false for not
+	UFUNCTION(BlueprintCallable, Category = "Pickup")
+	void SetActive(bool NewPickupState);
+
+protected:
+	// true when pickup can be used
+	bool bIsActive;
 
 private: // only can be accessed through this pickup code
 
