@@ -467,3 +467,69 @@ LogInit: Object subsystem initialized
 [2018.07.18-10.37.00:079][479]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
 [2018.07.18-10.37.00:127][479]LogContentBrowser: Native class hierarchy populated in 0.0120 seconds. Added 2455 classes and 560 folders.
 [2018.07.18-10.37.00:130][479]Display: HotReload took 22.5s.
+[2018.07.18-11.30.08:687][141]Candidate modules for hot reload:
+[2018.07.18-11.30.08:687][141]  BatteryCollector
+[2018.07.18-11.30.08:687][141]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe BatteryCollector -ModuleWithSuffix=BatteryCollector,2938 Win64 Development -editorrecompile -canskiplink "D:/DOC/Unreal Projects/BatteryCollector/BatteryCollector.uproject" ]
+[2018.07.18-11.30.08:689][141]Warning: Starting HotReload took  0.0s.
+[2018.07.18-11.30.36:894][622]CompilerResultsLog: New page: Compilation - Jul 19, 2018, 1:30:36 AM
+[2018.07.18-11.30.36:894][622]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.07.18-11.30.36:894][622]CompilerResultsLog: Compiling game modules for hot reload
+[2018.07.18-11.30.36:894][622]CompilerResultsLog: Parsing headers for BatteryCollectorEditor
+[2018.07.18-11.30.36:894][622]CompilerResultsLog:   Running UnrealHeaderTool "D:\DOC\Unreal Projects\BatteryCollector\BatteryCollector.uproject" "D:\DOC\Unreal Projects\BatteryCollector\Intermediate\Build\Win64\BatteryCollectorEditor\Development\BatteryCollectorEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.07.18-11.30.36:894][622]CompilerResultsLog: Reflection code generated for BatteryCollectorEditor in 22,6978917 seconds
+[2018.07.18-11.30.36:894][622]CompilerResultsLog: Performing 5 actions (4 in parallel)
+[2018.07.18-11.30.36:894][622]CompilerResultsLog: Pickup.gen.cpp
+[2018.07.18-11.30.36:894][622]CompilerResultsLog: Pickup.cpp
+[2018.07.18-11.30.36:894][622]CompilerResultsLog: BatteryCollector.init.gen.cpp
+[2018.07.18-11.30.36:894][622]CompilerResultsLog: [4/5] Link UE4Editor-BatteryCollector-2938.dll
+[2018.07.18-11.30.36:894][622]CompilerResultsLog: [5/5] Link UE4Editor-BatteryCollector-2938.lib
+[2018.07.18-11.30.36:894][622]CompilerResultsLog:    Creating library D:\DOC\Unreal Projects\BatteryCollector\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BatteryCollector-2938.lib and object D:\DOC\Unreal Projects\BatteryCollector\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BatteryCollector-2938.exp
+[2018.07.18-11.30.36:894][622]CompilerResultsLog:    Creating library D:\DOC\Unreal Projects\BatteryCollector\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BatteryCollector-2938.suppressed.lib and object D:\DOC\Unreal Projects\BatteryCollector\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BatteryCollector-2938.suppressed.exp
+[2018.07.18-11.30.36:894][622]CompilerResultsLog: Total build time: 27,57 seconds (Local executor: 3,42 seconds)
+[2018.07.18-11.30.36:894][622]LogMainFrame: MainFrame: Module compiling took 28.209 seconds
+[2018.07.18-11.30.36:935][622]LogClass: Could not find existing class Pickup in package /Script/BatteryCollector for HotReload, assuming new class
+[2018.07.18-11.30.37:021][622]LogClass: Function IsActive is new.
+[2018.07.18-11.30.37:021][622]LogClass: Function SetActive is new.
+[2018.07.18-11.30.37:037][622]LogHotReload: Re-instancing Pickup after hot-reload.
+[2018.07.18-11.30.37:130][622]LogContentBrowser: Native class hierarchy updated for 'BatteryCollector' in 0.0007 seconds. Added 3 classes and 2 folders.
+[2018.07.18-11.30.37:132][622]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2018.07.18-11.30.37:182][622]LogContentBrowser: Native class hierarchy populated in 0.0126 seconds. Added 2455 classes and 560 folders.
+[2018.07.18-11.30.37:187][622]Display: HotReload took 28.5s.
+[2018.07.18-11.30.58:685][974]Candidate modules for hot reload:
+[2018.07.18-11.30.58:685][974]  BatteryCollector
+[2018.07.18-11.30.58:685][974]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe BatteryCollector -ModuleWithSuffix=BatteryCollector,4068 Win64 Development -editorrecompile -canskiplink "D:/DOC/Unreal Projects/BatteryCollector/BatteryCollector.uproject" ]
+[2018.07.18-11.30.58:686][974]Warning: Starting HotReload took  0.0s.
+[2018.07.18-11.30.59:909][104]CompilerResultsLog: New page: Compilation - Jul 19, 2018, 1:30:59 AM
+[2018.07.18-11.30.59:909][104]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.07.18-11.30.59:909][104]CompilerResultsLog: Compiling game modules for hot reload
+[2018.07.18-11.30.59:909][104]CompilerResultsLog: Target is up to date
+[2018.07.18-11.30.59:909][104]CompilerResultsLog: Total build time: 1,03 seconds (NoActionsToExecute executor: 0,00 seconds)
+[2018.07.18-11.30.59:909][104]LogMainFrame: MainFrame: Module compiling took 1.227 seconds
+[2018.07.18-11.30.59:937][104]LogContentBrowser: Native class hierarchy populated in 0.0142 seconds. Added 2455 classes and 560 folders.
+[2018.07.18-11.30.59:941][104]Display: HotReload took  1.3s.
+[2018.07.18-11.32.38:694][887]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0017 seconds. Added 116 classes and 0 folders.
+[2018.07.18-11.32.39:218][887]LogUObjectGlobals: Created PersistentFrame Addr=0x0000023915631070, Size=4, Default__SKEL_PROTO_BP_AnimBlueprint_0_C Function /Engine/Transient.SKEL_PROTO_BP_AnimBlueprint_0_C:ExecuteUbergraph_PROTO_BP_AnimBlueprint_0
+[2018.07.18-11.32.39:218][887]LogUObjectGlobals: Created PersistentFrame Addr=0x0000023915631068, Size=4, Default__PROTO_BP_AnimBlueprint_0_C Function /Engine/Transient.PROTO_BP_AnimBlueprint_0_C:ExecuteUbergraph_PROTO_BP_AnimBlueprint_0
+[2018.07.18-11.32.40:451][887]LogSlate: Window 'Add Blueprint Class' being destroyed
+[2018.07.18-11.32.44:279][278]LogSlate: Window 'PickupBP*' being destroyed
+[2018.07.18-11.32.44:280][278]LogSlate: Window 'PickupBP*' being destroyed
+[2018.07.18-11.32.48:920][821]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/CollectionLevel" FILE="D:/DOC/Unreal Projects/BatteryCollector/Content/Maps/CollectionLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.07.18-11.32.48:993][821]LogSavePackage: Save=37.58ms
+[2018.07.18-11.32.48:994][821]LogSavePackage: Moving 'D:/DOC/Unreal Projects/BatteryCollector/Saved/CollectionLevel987FCA3E42594BBB9EF134981B7921C3.tmp' to 'D:/DOC/Unreal Projects/BatteryCollector/Content/Maps/CollectionLevel.umap'
+[2018.07.18-11.32.48:995][821]LogSavePackage: Display: Finished SavePackage D:/DOC/Unreal Projects/BatteryCollector/Content/Maps/CollectionLevel.umap
+[2018.07.18-11.32.49:056][821]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/CollectionLevel_BuiltData" FILE="D:/DOC/Unreal Projects/BatteryCollector/Content/Maps/CollectionLevel_BuiltData.uasset" SILENT=true
+[2018.07.18-11.32.49:340][821]LogSavePackage: Save=241.90ms
+[2018.07.18-11.32.49:340][821]LogSavePackage: Moving 'D:/DOC/Unreal Projects/BatteryCollector/Saved/CollectionLevel_BuiltData928AAACA469E8BB4CF4425BF915DA511.tmp' to 'D:/DOC/Unreal Projects/BatteryCollector/Content/Maps/CollectionLevel_BuiltData.uasset'
+[2018.07.18-11.32.49:397][821]LogSavePackage: Display: Finished SavePackage D:/DOC/Unreal Projects/BatteryCollector/Content/Maps/CollectionLevel_BuiltData.uasset
+[2018.07.18-11.32.53:587][113]LogSlate: Window 'Save Content' being destroyed
+[2018.07.18-11.32.53:601][113]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PickupBP" FILE="D:/DOC/Unreal Projects/BatteryCollector/Content/Blueprints/PickupBP.uasset" SILENT=true
+[2018.07.18-11.32.53:651][113]LogSavePackage: Save=47.10ms
+[2018.07.18-11.32.53:651][113]LogSavePackage: Moving 'D:/DOC/Unreal Projects/BatteryCollector/Saved/PickupBPC914D831433C36329EE54B9E7DCA6543.tmp' to 'D:/DOC/Unreal Projects/BatteryCollector/Content/Blueprints/PickupBP.uasset'
+[2018.07.18-11.32.53:658][113]LogSavePackage: Display: Finished SavePackage D:/DOC/Unreal Projects/BatteryCollector/Content/Blueprints/PickupBP.uasset
+[2018.07.18-11.33.10:343][833]BlueprintLog: New page: Compile PickupBP
+[2018.07.18-11.33.11:433][916]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PickupBP" FILE="D:/DOC/Unreal Projects/BatteryCollector/Content/Blueprints/PickupBP.uasset" SILENT=true
+[2018.07.18-11.33.11:462][916]LogSavePackage: Save=20.68ms
+[2018.07.18-11.33.11:462][916]LogSavePackage: Moving 'D:/DOC/Unreal Projects/BatteryCollector/Saved/PickupBP79FE4322403992FA051A638D4A7CC821.tmp' to 'D:/DOC/Unreal Projects/BatteryCollector/Content/Blueprints/PickupBP.uasset'
+[2018.07.18-11.33.11:465][916]LogSavePackage: Display: Finished SavePackage D:/DOC/Unreal Projects/BatteryCollector/Content/Blueprints/PickupBP.uasset
+[2018.07.18-11.33.13:481][157]LogSlate: Window 'PickupBP' being destroyed
+[2018.07.18-11.33.13:483][157]LogSlate: Window 'PickupBP' being destroyed

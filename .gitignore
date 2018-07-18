@@ -1,5 +1,13 @@
 /.vs
 /Binaries
 /Config
-/Content
+/Content/Collections
+/Content/DemoRoom
+/Content/Developers
+/Content/ExampleContent
+/Content/Geometry
+/Content/Mannequin
+/Content/Maps
+/Content/ThirdPerson
+/Content/ThirdPersonCPP
 /Intermediate
