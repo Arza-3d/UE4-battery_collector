@@ -20,5 +20,13 @@ public:
 	
 	// battery classes override  WasCollected function use implementation because it's a Blueprint Native Event
 	void WasCollected_Implementation() override;
+
+	// Public way to access the battery power level
+	float GetPower();
+
+protected:
+	// set the amount of battery power
+	UPROPERTY(EditAnyWhere, BlueprintReadWrite, Category = "Power", Meta = (BlueprintProtected = "true"))
+	float BatteryPower;
 	
 };
