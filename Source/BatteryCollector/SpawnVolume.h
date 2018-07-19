@@ -5,6 +5,7 @@
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
 #include "Components/BoxComponent.h"
+#include "Engine/EngineTypes.h"
 #include "SpawnVolume.generated.h"
 
 UCLASS()
@@ -32,10 +33,19 @@ public:
 	FVector GetRandomPointInVolume();
 
 protected:
-
 	//the pickup to spawn
 	UPROPERTY(EditAnywhere, Category = "Spawning")
 	TSubclassOf<class APickup> WhatToSpawn;
+	
+	FTimerHandle SpawnTimer;
+
+	// minimum spawn delay 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Spawning")
+	float SpawnDelayRangeLow;
+
+	//maximum spawn delay
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Spawning")
+	float SpawnDelayRangeHigh;
 
 private:
 	//box component to specify where pickups should be spawned
@@ -44,5 +54,8 @@ private:
 	
 	// handle spawining new pickup
 	void SpawnPickup();
+
+	// The current spawn delay
+	float SpawnDelay;
 
 };
