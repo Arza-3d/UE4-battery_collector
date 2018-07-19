@@ -12,6 +12,7 @@ ABatteryCollectorGameMode::ABatteryCollectorGameMode()
 	if (PlayerPawnBPClass.Class != NULL)
 	{
 		DefaultPawnClass = PlayerPawnBPClass.Class;
+		PrimaryActorTick.bCanEverTick = true;
 	}
 
 	// base decay rate
