@@ -31,7 +31,7 @@ void ABatteryCollectorGameMode::Tick(float DeltaTime)
 		if (MyCharacter->GetCurrentPower() > 0) 
 		{
 			// decrease the character power using the decay rate
-			MyCharacter->UpdatePower(-DeltaTime * DecayRate*(MyCharacter->GetInitialPower()));
+			MyCharacter->UpdatePower(-DeltaTime*DecayRate*(MyCharacter->GetInitialPower()));
 		}
 	}
 }
