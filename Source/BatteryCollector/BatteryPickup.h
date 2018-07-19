@@ -18,5 +18,7 @@ public:
 	// set default value
 	ABatteryPickup();
 	
+	// battery classes override  WasCollected function use implementation because it's a Blueprint Native Event
+	void WasCollected_Implementation() override;
 	
 };
