@@ -58,6 +58,10 @@ ABatteryCollectorCharacter::ABatteryCollectorCharacter()
 	InitialPower = 2000.0f;
 	CharacterPower = InitialPower;
 
+	// set the dependence of the speed on the power level
+	SpeedFactor = 0.75f;
+	BaseSpeed = 10.0f;
+
 }
 
 //////////////////////////////////////////////////////////////////////////
@@ -199,8 +203,13 @@ float ABatteryCollectorCharacter::GetCurrentPower()
 }
 
 
-// update power
+// called whenever power is increased or decreased
 void ABatteryCollectorCharacter::UpdatePower(float PowerChange)
 {
+	// change power
 	CharacterPower = CharacterPower + PowerChange;
+	// change sped based on power
+	GetCharacterMovement()->MaxWalkSpeed = BaseSpeed + SpeedFactor * CharacterPower;
+	// call visual effect
+	PowerChangeEffect();
 }
